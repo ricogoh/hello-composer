@@ -1,0 +1,19 @@
+{
+    "name": "ricogoh/hello-composer",
+    "description": "Hello composer",
+    "license": "MIT",
+    "authors": [{
+        "name": "Rico Goh",
+        "email": "rico@example.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ricogoh\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "phpunit/php-timer": "^1.0@dev"
+    }
+}
