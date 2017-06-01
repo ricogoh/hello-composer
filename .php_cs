@@ -26,10 +26,10 @@
  * composer run php-fixer
  */
 $fixers = [
-        '@Symfony' => true,
-        '@PSR1' => true,
-        '@PSR2' => true,
-    ];
+    '@Symfony' => true,
+    '@PSR1' => true,
+    '@PSR2' => true
+];
 
 $finder = PhpCsFixer\Finder::create()
     ->exclude('vendor')
@@ -37,4 +37,5 @@ $finder = PhpCsFixer\Finder::create()
 
 return PhpCsFixer\Config::create()
     ->setRules($fixers)
+    ->setUsingCache(false)
     ->setFinder($finder);
