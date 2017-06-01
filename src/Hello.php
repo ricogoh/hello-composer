@@ -4,7 +4,7 @@ namespace RicoGoh;
 
 class Hello
 {
-    public function say($toSay = "Nothing given")
+    public function say($toSay = 'Nothing given')
     {
         return $toSay;
     }

@@ -15,5 +15,10 @@
     "require": {
         "php": "^5.3.3 || ^7.0",
         "phpunit/php-timer": "^1.0@dev"
+    },
+    "scripts": {
+        "php-fixer": [
+            "php-cs-fixer fix --config=.php_cs --verbose"
+        ]
     }
 }

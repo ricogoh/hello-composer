@@ -6,11 +6,11 @@ use PHP_Timer;
 
 class Greetings
 {
-    public static function say($toSay = "Nothing given")
+    public static function say($toSay = 'Nothing given')
     {
         $timer = new PHP_Timer();
         $timer->start();
 
-        return $toSay . " " . $timer->resourceUsage() . "\n";
+        return $toSay.' '.$timer->resourceUsage()."\n";
     }
 }
