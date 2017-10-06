@@ -10,6 +10,9 @@
     "autoload": {
         "psr-4": {
             "RicoGoh\\": "src/"
+        },
+        "classname": {
+            "PHP_Timer": "src/"
         }
     },
     "require": {
