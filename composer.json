@@ -10,9 +10,7 @@
         "psr-4": {
             "RicoGoh\\": "src/"
         },
-        "classname": {
-            "PHP_Timer": "src/"
-        }
+        "classmap": ["src/"]
     },
     "require": {
         "php": "^5.6.0 || ^7.0",
