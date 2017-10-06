@@ -6,7 +6,6 @@
         "name": "Rico Goh",
         "email": "rico@example.com"
     }],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "RicoGoh\\": "src/"
