@@ -2,13 +2,13 @@
 
 namespace RicoGoh;
 
-use PHP_Timer;
+use SebastianBergmann\Timer\Timer;
 
 class Greetings
 {
     public static function say($toSay = 'Nothing given')
     {
-        $timer = new PHP_Timer();
+        $timer = new Timer();
         $timer->start();
 
         return $toSay.' '.$timer->resourceUsage()."\n";
